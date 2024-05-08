@@ -6,16 +6,16 @@
     <title>Odyssey Ventures</title>
     <style>
         body {
-            background-color: black;
-            color: lime;
-            font-family: 'Courier New', monospace;
+            background-color: black; /* black background for true synthwave contrast */
+            color: #ff9f1a; /* bright neon orange for text */
+            font-family: 'Courier New', monospace; /* maintaining the monospaced font */
             margin: 0;
             padding: 0;
             line-height: 1.6;
         }
         header {
-            background: black;
-            color: lime;
+            background: black; /* maintain black background in header */
+            color: #ff9f1a; /* consistent neon orange for text */
             padding: 10px 0;
             text-align: center;
         }
@@ -29,22 +29,23 @@
             margin: 0 15px;
         }
         nav ul li a {
-            color: lime;
+            color: #ff9f1a; /* neon orange links */
             text-decoration: none;
             font-size: 16px;
             font-weight: bold;
+            text-shadow: 0 0 8px #ff9f1a; /* stronger orange glow for added depth */
         }
         .container {
             width: 90%;
             margin: 20px auto;
             padding: 20px;
-            border: 1px solid lime;
+            border: 1px solid #ff9f1a; /* bright neon orange border */
         }
         section {
             margin-top: 20px;
         }
         h2 {
-            border-bottom: 1px dashed lime;
+            border-bottom: 1px dashed #ff9f1a; /* dashed line under headings in neon orange */
         }
         ul {
             padding: 0;
@@ -53,19 +54,31 @@
             margin: 5px 0;
         }
         .investments {
-            padding-left: 15px;
+            padding-left:15px;
         }
-          a {
-            color: lime;
+        .investments li a {
+            display: block; /* make each list item a block to be fully clickable */
+            color: #ff9f1a; /* neon orange text */
+            text-decoration: none;
+            font-size: 16px;
+            text-shadow: 0 0 5px #ff9f1a; /* glow effect */
+            transition: all 0.3s;
+        }
+        .investments li a:hover, .investments li a:focus {
+            text-decoration: underline;
+            text-shadow: 0 0 10px #ff9f1a, 0 0 20px #ff9f1a; /* intensified glow on hover */
+        }
+        a {
+            color: #ff9f1a; /* neon orange text */
             text-decoration: none;
             font-size: 16px;
             font-weight: bold;
-            text-shadow: 0 0 5px lime;
+            text-shadow: 0 0 10px #ff9f1a; /* stronger glow effect */
             transition: all 0.5s;
         }
-         a:hover,  a:focus {
+        a:hover, a:focus {
             text-decoration: underline;
-            text-shadow: 0 0 10px lime, 0 0 20px lime;
+            text-shadow: 0 0 15px #ff9f1a, 0 0 30px #ff9f1a; /* intensified glow on hover */
         }
     </style>
 </head>
@@ -73,7 +86,7 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Odyssey Ventures</a></li>
                 <!-- <li><a href="blog.html">Blog</a></li> -->
             </ul>
         </nav>
@@ -86,28 +99,28 @@
         <section>
             <h2>Investments</h2>
             <ul class="investments">
-                <li>10planet</li>
-                <li>Backpack</li>
-                <li>Baxus</li>
-                <li>Bera</li>
-                <li>Code</li>
-                <li>Coinflow</li>
-                <li>Cube</li>
-                <li>Debridge</li>
-                <li>Dflow</li>
-                <li>Drip</li>
-                <li>Eclipse</li>
-                <li>Ellipsis</li>
-                <li>Elusiv</li>
-                <li>Jito</li>
-                <li>Kuzco</li>
-                <li>Mayan</li>
-                <li>Megaeth</li>
-                <li>Monad</li>
-                <li>Praxis</li>
-                <li>Squads</li>
-                <li>Switchboard</li>
-                <li>Tensor</li>
+                <li><a href="#">10planet</a></li>
+                <li><a href="#">Backpack</a></li>
+                <li><a href="#">Baxus</a></li>
+                <li><a href="#">Bera</a></li>
+                <li><a href="#">Code</a></li>
+                <li><a href="#">Coinflow</a></li>
+                <li><a href="#">Cube</a></li>
+                <li><a href="#">Debridge</a></li>
+                <li><a href="#">Dflow</a></li>
+                <li><a href="#">Drip</a></li>
+                <li><a href="#">Eclipse</a></li>
+                <li><a href="#">Ellipsis</a></li>
+                <li><a href="#">Elusiv</a></li>
+                <li><a href="#">Jito</a></li>
+                <li><a href="#">Kuzco</a></li>
+                <li><a href="#">Mayan</a></li>
+                <li><a href="#">Megaeth</a></li>
+                <li><a href="#">Monad</a></li>
+                <li><a href="#">Praxis</a></li>
+                <li><a href="#">Squads</a></li>
+                <li><a href="#">Switchboard</a></li>
+                <li><a href="#">Tensor</a></li>
             </ul>
         </section>
     </div>
